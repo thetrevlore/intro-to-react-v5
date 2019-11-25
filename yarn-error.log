@@ -1,0 +1,65 @@
+Arguments: 
+  /usr/local/bin/node /usr/local/Cellar/yarn/1.13.0/libexec/bin/yarn.js add @frontendmaster/pet
+
+PATH: 
+  /usr/local/lib/node_modules/npm/node_modules/npm-lifecycle/node-gyp-bin:/Users/trevor/Current-Projects/react/adopt-me/node_modules/.bin:/Users/trevor/.rvm/gems/ruby-2.5.1/bin:/Users/trevor/.rvm/gems/ruby-2.5.1@global/bin:/Users/trevor/.rvm/rubies/ruby-2.5.1/bin:/usr/local/bin:/Users/trevor/.jenv/shims:/Users/trevor/.jenv/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Users/trevor/.rvm/gems/ruby-2.5.1/bin:/Users/trevor/.rvm/gems/ruby-2.5.1@global/bin:/Users/trevor/.rvm/rubies/ruby-2.5.1/bin:/Users/trevor/.jenv/shims:/Users/trevor/.jenv/bin:/Users/trevor/Library/Android/sdk/platform-tools:/Users/trevor/Library/Android/sdk/emulator:/Users/trevor/.rvm/bin:/Users/trevor/Library/Android/sdk/platform-tools:/Users/trevor/Library/Android/sdk/emulator:/Users/trevor/.rvm/bin
+
+Yarn version: 
+  1.13.0
+
+Node version: 
+  10.15.3
+
+Platform: 
+  darwin x64
+
+Trace: 
+  Error: https://registry.npmjs.org/@frontendmaster%2fpet: Not found
+      at Request.params.callback [as _callback] (/usr/local/Cellar/yarn/1.13.0/libexec/lib/cli.js:66255:18)
+      at Request.self.callback (/usr/local/Cellar/yarn/1.13.0/libexec/lib/cli.js:129397:22)
+      at Request.emit (events.js:189:13)
+      at Request.<anonymous> (/usr/local/Cellar/yarn/1.13.0/libexec/lib/cli.js:130369:10)
+      at Request.emit (events.js:189:13)
+      at IncomingMessage.<anonymous> (/usr/local/Cellar/yarn/1.13.0/libexec/lib/cli.js:130291:12)
+      at Object.onceWrapper (events.js:277:13)
+      at IncomingMessage.emit (events.js:194:15)
+      at endReadableNT (_stream_readable.js:1125:12)
+      at process._tickCallback (internal/process/next_tick.js:63:19)
+
+npm manifest: 
+  {
+    "name": "adopt-me",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+      "dev": "parcel src/index.html",
+      "format": "prettier \"src/**/*.{js,html}\" --write",
+      "lint": "eslint \"src/**/*.{js,jsx}\" --quiet",
+      "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "devDependencies": {
+      "babel-eslint": "^10.0.3",
+      "eslint": "^6.7.1",
+      "eslint-config-prettier": "^6.7.0",
+      "eslint-plugin-import": "^2.18.2",
+      "eslint-plugin-jsx-a11y": "^6.2.3",
+      "eslint-plugin-react": "^7.16.0",
+      "eslint-plugin-react-hooks": "^2.3.0",
+      "parcel-bundler": "^1.12.4",
+      "prettier": "^1.19.1"
+    },
+    "dependencies": {
+      "react": "^16.12.0",
+      "react-dom": "^16.12.0"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
